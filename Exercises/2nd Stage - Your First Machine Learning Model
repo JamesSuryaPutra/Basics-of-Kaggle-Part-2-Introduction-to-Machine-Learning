@@ -223,6 +223,6 @@ print(y.head())
 3    140000
 4    250000
 Name: SalePrice, dtype: int64
-****************
 
 It's natural to ask how accurate the model's predictions will be and how you can improve that. That will be you're next step.
+****************
