@@ -1,7 +1,7 @@
 <Exercises>
 Run the following cell to set up code-checking, which will verify your work as you go.
-****************
 
+****************
 # Set up code checking
 from learntools.core import binder
 binder.bind(globals())
@@ -9,13 +9,12 @@ from learntools.machine_learning.ex2 import *
 print("Setup Complete")
 
 Setup Complete
-
 ****************
 
-<Step 1 - Loading data>
+<1st step: Loading data>
 Read the Iowa data file into a Pandas DataFrame called home_data.
-****************
 
+****************
 import pandas as pd
 
 # Path of the file to read
@@ -29,23 +28,21 @@ step_1.check()
 
 Correct
 
-****************
-
 # Lines below will give you a hint or solution code
 step_1.hint()
 step_1.solution()
 
-Hint: Use the pd.read_csv function
+Hint:
+Use the pd.read_csv function
 
 Solution:
 home_data = pd.read_csv(iowa_file_path)
-
 ****************
 
-<Step 2 - Review the data>
+<2nd step: Review the data>
 Use the command you learned to view summary statistics of the data. Then fill in variables to answer the following questions.
-****************
 
+****************
 # Print summary statistics in next line
 home_data.describe()
 
@@ -70,16 +67,14 @@ step_2.check()
 
 Correct
 
-****************
-
 step_2.hint()
 step_2.solution()
 
-Hint: Run the describe command. Lot size is in the column called LotArea. Also look at YearBuilt. Remember to round lot size
+Hint:
+Run the describe command. Lot size is in the column called LotArea. Also look at YearBuilt. Remember to round lot size.
 
 Solution:
 # using data read from home_data.describe()
 avg_lot_size = 10517
 newest_home_age = 14
-
 ****************
