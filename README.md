@@ -1,10 +1,7 @@
-January 12th, 2024
-Basics of Kaggle
--2nd Course: Introduction to Machine Learning-
-
-=======================
+Date: January 12th, 2024
 User: James Surya Putra
-=======================
+
+# Basics of Kaggle: 2nd Course - Introduction to Machine Learning
 
 DISCLAIMER:
 - All tutorials and exercises are taken, including questions, submissions, hints, and solutions.
