@@ -1,4 +1,4 @@
-# Basic Data Exploration Example
+# Basic data exploration example
 As an example, we'll look at data about home prices in Melbourne, Australia. In the hands-on exercises, you will apply the same processes to a new dataset, which has home
 prices in Iowa.
 
