@@ -1,4 +1,4 @@
-# Example
+# Underfitting and overfitting example
 There are a few alternatives for controlling the tree depth, and many allow for some routes through the tree to have greater depth than other routes. But the max_leaf_nodes argument
 provides a very sensible way to control overfitting vs underfitting. The more leaves we allow the model to make, the more we move from the underfitting area in the above graph to the
 overfitting area.
